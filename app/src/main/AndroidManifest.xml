@@ -3,9 +3,11 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- tengo que poner esto si no no se prende el en linea :( -->
     <application
         android:name=".CharlaApplication"
         android:allowBackup="false"
+        android:usesCleartextTraffic="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Charla"
         android:supportsRtl="true"
